@@ -1,0 +1,36 @@
+{
+ "note": "The frozen files of HLK (day 1) and HLK2 (day 2), checked before the 2025-26 test ran on 13 Oct 2026, 11:46 UTC. The prediction files' SHA-256 were sealed by that run before anyone read them.",
+ "files": {
+  "lock_hl.py": "b2bfd2c2bcae9edc9cfaf670202b88426a2f0d8497c77f9beb40e443fcddbf28",
+  "hl_core.py": "ae7d5189c571901aa7069f27c9ef70fc729a5ef6ceaabc29b0e329c1c51d1c35",
+  "parse_rsga.py": "f69a8198045de506a13cfe6b8ed2d7ee0e52e496e478d730c7a4257413f0556a",
+  "frozen/HLK_frozen.pkl": "db308c57640d1079fea2b3424938e6890dcd709106380d12a5e43ac6958b2532",
+  "frozen/HLK2_frozen.pkl": "de2344ab47bf4dc39d11f6f065106421abcfd0a42eddf4ef503372610d9d89d1"
+ },
+ "sealed_predictions": {
+  "pred_HLK.csv": "699262ec7c955480ec45df6da52486d7535f420f831fe8d3e16a46063e2428d1",
+  "pred_HLK2.csv": "fbcb76d70a1d01245104dd3e5b8586da4ce2064399ea9b46371391b68850fb0f"
+ },
+ "fit_span": [
+  "1997-01-13",
+  "2024-12-31"
+ ],
+ "libraries": {
+  "scikit-learn": "1.9.0",
+  "numpy": "2.4.6",
+  "pandas": "3.0.5"
+ },
+ "features": [
+  "l_hi",
+  "l_act",
+  "l_mid",
+  "kc_last",
+  "kc_max",
+  "kc_mean",
+  "kp_last",
+  "kp_max",
+  "Ac_rec",
+  "kp_rec",
+  "semi"
+ ]
+}

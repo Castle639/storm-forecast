@@ -1,0 +1,57 @@
+{
+ "note": "A check run after the 2025-26 test, not one of its pass lines: the frozen simple baseline (College's persistence + season + 27-day recurrence) against NOAA's issued and recalibrated numbers. Paired Brier difference (NOAA minus the baseline; above 0, the baseline is better), 27-day blocks bootstrapped as lock_hl.py does.",
+ "HLK": {
+  "vs_issued": {
+   "diff": 0.02742384700718366,
+   "ci95": [
+    0.011082257004616456,
+    0.044559853871605146
+   ],
+   "ci9833": [
+    0.00781905719161505,
+    0.04851345142537733
+   ]
+  },
+  "vs_recal": {
+   "diff": 0.01549955005054814,
+   "ci95": [
+    0.0043511684574374,
+    0.02701278106137078
+   ],
+   "ci9833": [
+    0.0017174765634258822,
+    0.029558447566661424
+   ]
+  },
+  "n": 632,
+  "events": 342,
+  "brier_psr": 0.2077456150181328
+ },
+ "HLK2": {
+  "vs_issued": {
+   "diff": 0.0038083151424769357,
+   "ci95": [
+    -0.01258752636665433,
+    0.02032851565619938
+   ],
+   "ci9833": [
+    -0.015936946374779336,
+    0.02409109504239515
+   ]
+  },
+  "vs_recal": {
+   "diff": -0.0040999875083952385,
+   "ci95": [
+    -0.013822634070213816,
+    0.005483160711022166
+   ],
+   "ci9833": [
+    -0.016222464867643203,
+    0.0076513919831253194
+   ]
+  },
+  "n": 631,
+  "events": 343,
+  "brier_psr": 0.23537266742487647
+ }
+}
